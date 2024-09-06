@@ -1,0 +1,91 @@
+/* Import font style */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  background-color: #00712d;
+  color: #fffbe6;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 5px;
+}
+
+.playerBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.player1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.player1 p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.player1 img {
+  width: 300px;
+  height: 300px;
+}
+
+.player2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.player2 p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.player2 img {
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 660px) {
+  .playerBox {
+    flex-direction: row;
+  }
+}
