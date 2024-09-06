@@ -16,4 +16,4 @@ A website that randomly rolls two dice and announces the winner, or, in the case
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
